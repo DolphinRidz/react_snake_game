@@ -1,0 +1,30 @@
+.score {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .board {
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: repeat(20, 25px);
+    grid-template-rows: repeat(20, 25px);
+    width: max-content;
+    gap: 1px;
+    border: 1px solid #111;
+  }
+  .cell {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .food {
+    background-color: red;
+  }
+  
+  .snake {
+    background-color: green;
+  }
+  
+  .snake-head {
+    background-color: black;
+  }

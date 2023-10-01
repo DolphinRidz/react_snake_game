@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
-  publish="path-to-react-app/build"
-  base = "path-to-react-app"
+  publish="https://github.com/DolphinRidz/react_snake_game.git/build"
+  base = "https://github.com/DolphinRidz/react_snake_game.git"
   [[redirects]]
   from = "/*"
   to = "/index.html"
